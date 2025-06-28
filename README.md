@@ -1,50 +1,79 @@
-# 📊 Tableau COVID-19 Analysis Project
+# 📊 COVID-19 Public Health Dashboard (Tableau)
 
-This repository contains a Tableau dashboard project focused on analyzing COVID-19-related health data using visualizations built from the **CDC NPAO dataset**.
+This repository showcases a Tableau dashboard analyzing public health indicators across U.S. states using the **CDC NPAO (Nutrition, Physical Activity, and Obesity)** dataset, with a focus on trends related to the COVID-19 pandemic period.
 
-## 📁 Project Contents
+---
 
-- `Tableau Workbook.twbx` — Packaged Tableau workbook including all data and visualizations
-- `Data/data/cdc_npao.csv` — CSV data file used in the dashboard
-- `README.md` — Project documentation (this file)
+## 📂 Repository Structure
 
-## 🔍 Project Overview
+```
+📁 tableau-covid-dashboard/
+├── Tableau Workbook.twbx            # Tableau packaged workbook with data
+├── dashboard_preview.png            # Screenshot of the Tableau dashboard
+├── README.md                        # Project overview and usage instructions
+└── report.md                        # Analytical report and findings
+```
 
-The Tableau dashboard visualizes public health indicators and patterns from the CDC dataset. It aims to provide insights into:
+---
 
-- Geographic distribution of health conditions
-- State-level comparisons
-- Trends in nutrition, physical activity, and obesity (NPAO) metrics
+## 🧠 Project Goals
 
-## 📂 Data Source
+- Identify health behavior disparities (e.g., obesity, inactivity) across states
+- Visualize time-based trends pre/post COVID-19
+- Provide interactive tools for stakeholders to explore the data
 
-- **Source**: Centers for Disease Control and Prevention (CDC)
-- **File**: `cdc_npao.csv`
-- **Description**: The dataset includes state-level statistics on nutrition, physical activity, and obesity indicators.
+---
 
-## 🧰 Tools & Technologies
+## 🗃️ Data Description
 
-- [Tableau Desktop](https://www.tableau.com/products/desktop) for interactive visual analytics
-- CSV data processing and integration within Tableau
+- **Source:** U.S. Centers for Disease Control and Prevention (CDC)
+- **Dataset File:** `cdc_npao.csv`
+- **Variables:**  
+  - State, Year, Indicator Type (Obesity, Inactivity, etc.), Data Value, Demographics
 
-## 📸 Dashboard Features
+---
 
-- **Interactive Filters** by state and year
-- **Bar Charts**, **Heat Maps**, and **Line Charts** for trend analysis
-- **Dynamic Tooltips** for better data interpretation
+## 🔧 Tools & Technologies
 
-## 🚀 Getting Started
+- **Tableau Desktop** – Data visualization and dashboard development
+- **CSV File Format** – Raw health data
+- **GitHub** – Project versioning and documentation
 
-1. Download or clone the repository
-2. Open `Tableau Workbook.twbx` in Tableau Desktop
-3. Explore the interactive dashboards and visualizations
+---
 
-## 🧾 License
+## 🖥️ Dashboard Features
 
-This project is for educational and non-commercial use. Please cite the original data source if used elsewhere.
+- 📍 **Geographic Heatmaps** – State-wise comparison  
+- 📈 **Time Series Trends** – Obesity patterns over years  
+- 👥 **Demographic Segmentation** – By age, gender, and income  
+- 🎚️ **Interactive Filters** – Year, state, and indicator-based exploration  
+- 💬 **Hover Tooltips** – Data-rich insights on mouse-over
+
+---
+
+## 📷 Dashboard Preview
+
+![COVID-19 Dashboard Preview](dashboard_preview.png)
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone or download the repository
+2. Open `Tableau Workbook.twbx` in **Tableau Desktop**
+3. Interact with filters and charts to explore health trends
+
+---
+
+## 📚 License
+
+This project is provided for educational and research purposes. Please credit the original dataset from CDC if reused.
+
+---
 
 ## 🙋‍♂️ Author
 
 **Obai Ahmed**  
-📧 obai.ahmed@email.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/obai-ahmed-b7697433a/) | [GitHub](https://github.com/SoObai)
+📧 obaialid45@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/obai-ahmed-b7697433a/)  
+🔗 [GitHub](https://github.com/SoObai)
