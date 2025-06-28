@@ -1,4 +1,4 @@
-# 📊 COVID-19 Public Health Dashboard (Tableau)
+# 📊 Public Health Dashboard (Tableau)
 
 This repository showcases a Tableau dashboard analyzing public health indicators across U.S. states using the **CDC NPAO (Nutrition, Physical Activity, and Obesity)** dataset, with a focus on trends related to the COVID-19 pandemic period.
 
